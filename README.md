@@ -1,5 +1,5 @@
 # react-native-web-ui
- 
+[![npm version][package-badge]][package-url]
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 This library is an attempt to make a UI crossplatform ecosystem based on best components of each world (web and native).
