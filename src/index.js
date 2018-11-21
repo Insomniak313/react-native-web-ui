@@ -14,4 +14,13 @@ const ReactNativeWebUI = {
 	TextFormGroup
 };
 
+export {
+	Button,
+	LoadingPlaceholder,
+	Switch,
+	TextField,
+	VictoryChart,
+	TextFormGroup
+};
+
 export default ReactNativeWebUI;
