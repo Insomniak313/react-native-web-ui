@@ -1,6 +1,6 @@
 {
   "name": "react-native-web-ui",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Adrien Fournie",
   "license": "MIT",
   "main": "exports/index.js",
