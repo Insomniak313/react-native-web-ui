@@ -1,5 +1,5 @@
 # react-native-web-ui
-[![npm version][package-badge]][package-url]
+[![npm version][package-badge]][package-url] 
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 This library is an attempt to make a UI crossplatform ecosystem based on best components of each world (web and native).
@@ -29,3 +29,6 @@ React Native v0.55
 | Textfield | ✓ | material-ui | react-native |
 | LoadingPlaceholder | ✓ | material-ui | react-native |
 | Chart | ✓ | victory | victory-native |
+
+[package-badge]: https://img.shields.io/npm/v/react-native-web-ui.svg?style=flat
+[package-url]: https://yarnpkg.com/en/package/react-native-web-ui
