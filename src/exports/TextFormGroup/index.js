@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
-import TextField from './TextField';
+import TextField from '../TextField';
 
 const TextFormGroup = ({style, label, ...other}) => (
   <View style={StyleSheet.compose(styles.container, style)}>
