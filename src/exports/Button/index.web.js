@@ -1,5 +1,5 @@
 import React from 'react';
-import AwesomeButton from 'react-awesome-button';
+import AwesomeButton from 'react-awesome-button/src/components/AwesomeButton';
 import { Colors } from '../../constants';
 
 const BUTTON_HEIGHT = 48;
