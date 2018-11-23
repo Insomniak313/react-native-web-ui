@@ -27,10 +27,11 @@ const Button = ({ label, rounded, color, variant, onClick, ...other }) => {
         onClick
         next();
       }}
-      text={label}
       {...contained}
       {...other}
-      />
+      >
+    {label}
+    </AwesomeButton>
   );
 };
 
