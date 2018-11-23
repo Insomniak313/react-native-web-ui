@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button as MaterialButton } from 'react-native-material-ui';
+import AwesomeButton from 'react-native-really-awesome-button';
 import { Colors } from '../../constants';
 
 const BUTTON_HEIGHT = 48;
@@ -19,11 +19,14 @@ const Button = ({ label, rounded, color, variant, onClick, ...other }) => {
       styles.container.backgroundColor = color;
       break;
   }
-
+  
   return (
-    <MaterialButton
+    <AwesomeButton
       style={{container:Object.assign({}, styles.container, rounded && stylesRounded.container )}}
-      onPress={onClick}
+      onPress={(next) => {
+        onClick
+        next();
+      }}
       text={label}
       {...contained}
       {...other}

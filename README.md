@@ -24,7 +24,7 @@ React Native v0.55
 
 | Name                     | Status | React library | React native library |
 | :----------------------- | :----- | :---- | :---- |
-| Button | ✓ | material-ui | react-native-material-ui |
+| Button | ✓ | react-awesome-button | react-native-awesome-button |
 | Switch | ✓ | react-switch | react-native |
 | Textfield | ✓ | material-ui | react-native |
 | LoadingPlaceholder | ✓ | material-ui | react-native |
